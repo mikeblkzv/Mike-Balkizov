@@ -112,3 +112,17 @@ border-radius: 33px;
 display: flex;
 align-items: flex-end;
 }
+.di{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.dick{
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  font-size: 100px;
+}
+.dick:hover {
+  font-size: 200px;
+  color: red;
+}
