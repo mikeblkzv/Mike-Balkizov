@@ -1,35 +1,103 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>My First Project</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="block">
-      <div class="top_line">
-        <div class="name"><h1>Mikhail Balkizov</h1></div>
-          <div class="vk_inst">
-            <a href="https://vk.com/mike_blkzv"> VKontakte</a>
-            <a href="https://www.instagram.com/mike.blkzv/"> Instagram </a>
-          </div>
-      </div>
-    </div>
-  </header>
-  <main>
-      <div class="wrap">
-        <div class="card">
-          <div class="front"><span><img src="https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/14572352_1114107655309801_7067893573113866953_n.jpg?_nc_cat=109&_nc_sid=7aed08&_nc_ohc=GMNfOi9KJ8AAX8rcwxu&_nc_ht=scontent-hel2-1.xx&oh=3e10c9fab196f0e5e53b77321ecdcb95&oe=5EA311BA"></span></div>
-          <div class="back" ><span><img src="http://aquatrium.ru/images/goodnight.jpg"></span></div>
-        </div>
-      </div>
-  </main>
-</body>
+    <div class="content">
+        <div class="wrapper">
+            <h1 class="title size--m">Благодарим Вас за покупку!</h1>
+            <div class="wrapper__content">
+                <div class="info">
+                    <div class="content__info">
+                            <p class="name style--text">Имя: Иван Иванович</p>
+                            <p class="phone style--text">Телефон: 89109665647</p>
+                    </div>
+                    <div class="content__notification">
+                        <p class="notification">Если Вы ошиблись при заполнении формы, пожалуйста, заполните<br> заявку <a href="#">еще раз.</a></p>
+                    </div>   
+                </div>
+                <div class="description">
+                    <h2 class="title size--s">Для чего Вам нужно оставить email адрес?</h2>
+                    <p class="subtitle size--m-sub">На Ваш адрес электронной почты Вы получите от нас подтверждение заказа и максимальную скидку.</p>
+                </div>
+                <form class="form" action="">
+                    <input class="data" type="text" placeholder="Email-адрес">
+                    <button class="button">Подтвердить</button>
+                </form>
+            </div>
 
-<footer>
-  <div class="footer">
-    <div class="center"><h2> The End </h2></div>
-  </div>
-  <div class="di">
-      <span class="dick"><b>ХУЙ СОСИ</b></span>
+            <h2 class="title size--xs">С этим товаром покупают:</h2>
+
+            <div class="material">
+                <div class="material__block">
+                    <h3 class="title">КАРДОКC</h3>
+                    <span>препарат от гипертонии</span>
+                    <div class="back">
+                        <img src="img/kardos.svg" alt="" class="picture left">
+                    </div>
+                    <div class="subscription">
+                        <span class="subtitle size--s-sub">
+                            Описание:<br>
+                            Устраняет головную боль и шум в ушах. Разгружает сосуды и 
+                            <!-- дает ощущение легкой головы и спокойного сердца.
+                            Не вызывает привыкания за счет исключительно натурального состава. -->
+                        </span>
+                    </div>
+                    <div class="element">
+                        <img src="img/ugolnik.svg" alt="" class="click"> 
+                    </div>
+                    <button class="button margin--button">подробнее</button>
+                </div>
+                <div class="material__block">
+                    <h3 class="title">КРЕМ ЗДОРОВ</h3>
+                    <span class="subtitle size--s-sub">от морщин</span>
+                    <div class="back">
+                        <img src="img/krem.svg" alt="" class="picture center">
+                    </div>
+                    <div class="subscription">
+                        <span class="subtitle size--s-sub">
+                            Описание:<br>
+                            Крем-воск «Здоров» разработан на основе натуральных продуктов 
+                            <!-- пчеловодства. Наш крем при постоянном использовании:
+                            Восстанавливает текстуру кожи;
+                            Возвращает коже превосходный внешний вид;
+                            Заметно уменьшает появление тонких линий и морщин;
+                            Сводит к нулю появление темных кругов и отечности под глазами;
+                            Уменьшает вероятность возникновения больших пор на коже. -->
+                        </span>
+                    </div>
+                    <div class="element">
+                        <img src="img/ugolnik.svg" alt="" class="click"> 
+                    </div>
+                    <button class="button margin--button">подробнее</button>
+                </div>
+                <div class="material__block">
+                    <h3 class="title">PROPOLIS IN</h3>
+                    <span class="subtitle size--s-sub">таблетки для иммунитета</span>
+                    <div class="back">
+                        <img src="img/propol.svg" alt="" class="picture right">
+                    </div>
+                    <div class="subscription">
+                        <span class="subtitle size--s-sub">
+                            Описание:<br>
+                            Благодаря своим натуральным компонентам очищает организм от 
+                            <!-- токсинов. Избавляет кожу от папиллом. Восстанавливает иммунитет.
+                            Уменьшает вероятность возникновения больших пор на коже. -->
+                        </span>
+                    </div>
+                    <div class="element">
+                        <img src="img/ugolnik.svg" alt="" class="click"> 
+                    </div>
+                    <button class="button margin--button">подробнее</button>
+                </div>
+            </div>
+                
+        </div>
     </div>
-</footer>
+    
+</body>
+</html>
